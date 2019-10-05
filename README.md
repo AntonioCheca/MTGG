@@ -9,6 +9,15 @@ The color pie of MtG with the most popular nodes in each part. The golden nodes 
 The max clique found by the script.
 ![The colored clique](ColoredClique.PNG)
 
+## How to run
+
+The script and data.csv have to be in the same folder, it's just:
+
+python dataToGraph.py
+
+If you want to see the graphs as I visualized in the images, download Gephi and open the gexf files. The nodes are automatically colored, the edges are not (I don't know why that doesn't work) but I added a property so it can be colored by clicking on Partition of edges in Gephi and selecting 'atr'.
+
+
 As this is just a silly project I started for fun, and because I wanted to have some fast feedback from it, there are some problems with the script and the data. Here I make a list of the main ones.
 
 ## Main problems
