@@ -11,7 +11,7 @@ The max clique found by the script.
 
 ## How to run
 
-The script and data.csv have to be in the same folder, it's just:
+You need to download Networkx (you can do that with pip) and Gephi (they have an [official website](https://gephi.org/) with info). The script and data.csv have to be in the same folder, it's just:
 
 python dataToGraph.py
 
